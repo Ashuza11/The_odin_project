@@ -1,1 +1,1 @@
-![Bunner image](bunner.png "The odin project bunner")
+![Bunner imdge](bunner.png "The odin project bunner")

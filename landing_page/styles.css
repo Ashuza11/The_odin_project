@@ -1,0 +1,221 @@
+/* Variables */
+:root {
+    --section1: #1F2937;
+    --quoteSection: #E5E7EB;
+    --heroText: #F9FAF8;
+    --btn: #3882F6;
+    --quoteText: #1F2937;
+}
+
+/* General style */
+html body {
+    padding: 0;
+    margin: 0;
+}
+body * {
+    transition: .9s;
+}
+h1, h2, h3, h4 {
+    font-family: 'Russo One', cursive, sans-serif;
+    font-weight: 700;
+}
+
+p, li, span {
+    font-family: 'Roboto mon', monospace;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--quoteSection);
+}
+
+h1 {font-size: 48px;}
+h2 {font-size: 36px;}
+h3 {font-size: 24px;}
+h4{font-size: 18px;
+    color: var(--quoteSection);
+    margin: 0;
+}
+
+/* Specific style */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header, .main, .footer {
+    color: white;
+    background-color: #1F2937;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+ul li:hover  a:hover {
+    color: var(--btn);
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--heroText);
+}
+.logo i {
+    color: var(--btn);
+}
+/* Header wrapper */
+
+/* Main */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.img img {
+    height: 250px;
+    width: 600px;
+}
+.main .content {
+    width: 300px;
+    height: 250px;
+}
+.main .content .hero {
+    margin: 0;
+    font-weight: 900;
+}
+
+.main .content button {
+    border: none;
+    width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--btn);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Main wrapper */
+
+/* Second  */
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.infos {
+    display: flex;
+    gap: 20px;
+}
+.info img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid var(--btn);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.info {
+    text-align: center;
+    width: 150px;
+}
+
+.info h4 {
+    color: var(--section1);
+}
+
+.second .title_2 {
+    font-weight: 900;
+    color: var(--section1);
+    margin-top: 0;
+}
+/* Second Wrapper */
+
+/* Quotes */
+.quote {
+    background-color: var(--quoteSection);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+.quote  h2 {
+    width: 700px;
+    margin: 0;
+}
+.quote .text {
+    padding: 20px;
+    line-height: 3rem;
+    color: var(--quoteText);
+    font-weight: italic;
+}
+
+.quote .author {
+    width: 300px;
+    margin-left: 500px;
+    padding: 5px;
+    font-weight: 900;
+}
+
+/* Quates wrapper */
+
+/* Call Action */
+.call_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.call_action .sign_up {
+    display: flex;
+    background-color: var(--btn);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.call_action .sign_up button {
+    width: 100px;
+    background: var(--btn);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+.call_action .sign_up .call_text .head {
+    margin: 0;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* Call Action wrapper */
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+/* Footer wrapper */

@@ -1,4 +1,4 @@
-# The Odin project Foundation HTML & CSS.
+# The Odin project Foundations HTML & CSS.
 
 ## Project screen short 
 ![Bunner imdge](img/landing_page.png "The odin project bunner")
